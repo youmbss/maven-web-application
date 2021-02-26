@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://34.204.195.164:8081/repository/maven-central/</url>
+	      <url>http://34.204.195.164:8081/repository/bobo-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://34.204.195.164:8081/repository/nuget.org-proxy/</url>
+	      <url>http://34.204.195.164:8081/repository/bobo-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
