@@ -24,7 +24,7 @@ jobs:
           command: mvn test
       - run:
           name: Sync files to aws s3
-          command: aws s3 sync . s3://circleci-youmbi
+          command: aws s3 sync build/ s3://circleci-youmbi
 
 workflows:
   # Below is the definition of your workflow.
